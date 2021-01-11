@@ -1,0 +1,42 @@
+.Header{
+ background:#FF1493;
+ min-height: 100px;
+ width:100%;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.Header-Inner-Container{
+    /* width:80%;
+    margin:auto; */
+}
+a{
+    color:#000 !important;
+  
+}
+a:hover{
+    color: #fff !important;
+}
+.ui.secondary.menu .item{
+    color:#fff;
+    padding:.97857143em 1.2em;
+    font-family: Arial,Helvetica,sans-serif;
+    -webkit-transition: color .1s ease;
+    transition: color .1s ease;
+    border-radius: .28571429rem;
+
+}
+.ui.menu{
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+.header-button{
+    border: 1px solid #fff;
+    background-color: black;
+    color:#fff;
+    padding:10px;
+}
+@media only screen and (max-width: 600px) {
+  
+}

@@ -1,0 +1,23 @@
+.form-wrapper{
+    margin-top:100px;
+    width: 100%;
+    background:	#FFB6C1;
+    padding:25px;
+    border-radius: 10px;
+}
+.form-inner{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact{
+    font-size: 28px;
+
+}
+.button-style{
+    width: 100%;
+    padding:6px;
+    color:#fff;
+    background-color: black;
+}

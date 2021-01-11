@@ -1,0 +1,21 @@
+.services{
+    margin-top:150px !important;
+
+  width: 80%;
+  margin:auto;  
+  padding:40px;
+}
+.services-heading{
+    font-size: 28px;
+    margin-bottom: 30px !important;
+}
+.services-para{
+    font-size:18px;
+    font-style: italic;
+    font-family: Didot--eText--Italic;
+   
+   
+}
+.service-head{
+    font-weight: bold;
+}

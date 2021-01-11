@@ -1,0 +1,75 @@
+.about{
+     position: relative;
+  text-align: center;
+  color: white;
+    margin:auto;
+    color:#000;
+    height:100vh;
+    background-image:url('https://images.unsplash.com/photo-1485178575877-1a13bf489dfe?ixid=MXwxMjA3fDB8MHxzZWFyY2h8NTF8fGJlYXV0eSUyMG1vZGVsfGVufDB8fDB8&ixlib=rb-1.2.1&w=1000&q=80') ;
+      background-position: left; 
+    
+}
+
+.about-heading{
+    font-size: 28px;
+    /* font-weight: bold; */
+ 
+    padding:10px;
+    height:250px;
+    font-family: Didot--eText--Italic !important;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+}
+
+.para-centered{
+    /* font-family: Didot--eText--Italic; */
+    font-style: italic;
+    font-size:  18px;
+}
+.about-image{
+    margin-top:5em;
+     position: relative;
+  text-align: center;
+  color: white;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color:black;
+  max-width: 400px;
+  padding:20px;
+  height:300px;
+}
+@media only screen and (max-width: 600px) {
+  .centered{
+    height:400px;
+  }
+}
+.About-room{
+    font-size: 30px;
+    line-height: 1;
+    color:#000;
+    margin-bottom: 20px;
+}
+.paragraph{
+    color:#cccccc;
+    font-style: italic;
+    font-size: 18px;
+}
+.book-room{
+    margin-top: 20px;
+    padding:10px;
+    background-color: #fff;
+}

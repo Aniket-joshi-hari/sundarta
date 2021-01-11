@@ -1,0 +1,22 @@
+.Home-Page-Heading{
+    margin-top: 5em;
+    padding: 10px;;
+    margin-bottom:80px;
+     font-family: Didot--eText--Italic;
+}
+.ferofly{
+font-size:45px ;
+    letter-spacing: 0.1em;  
+    font-weight: bold;
+}
+.sub-heading{
+    font-size: 24px;
+    font-style: italic;
+    margin-top: 20px;
+     letter-spacing: 0.1em; 
+}
+.inner-wrapper{
+    width:80%;
+    margin:auto;
+
+}

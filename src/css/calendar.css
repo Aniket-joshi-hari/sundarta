@@ -1,0 +1,14 @@
+.calendarContainer{
+    margin-top: 2em;
+    padding:50px;
+    margin-bottom: 3em;
+}
+.datepicker{
+    padding:8px;
+}
+.search{
+    padding:8px ;
+    width: 100%;
+    background-color: black;
+    color:white;
+}
