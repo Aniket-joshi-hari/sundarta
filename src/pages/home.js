@@ -19,7 +19,7 @@ function Home() {
                     <i className="ferofly">Sundarta</i>
                     <div className="sub-heading"><span className="special">-</span>A woman’s greatest asset is her beauty.<span className="special">-</span></div>
                 </div>
-
+                {/* deploy change */}
                 <About />
                 <Services />
                 <Form />
