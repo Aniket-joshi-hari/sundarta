@@ -5,7 +5,6 @@ import ImageContainer from "../container/imageContainer";
 import Calendor from "../container/calendorContainer";
 import About from "./about";
 import Services from "./services";
-import Gallery from "./gallery";
 import Todo from "./todo";
 import Review from "./review";
 import Form from "./form";
