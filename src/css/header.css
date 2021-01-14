@@ -47,13 +47,15 @@ ul > li{
     background-color: #000;
     justify-content: right;
 }
-
-@media only screen and (min-width: 600px) {
-  .sidebar{
+@media only screen and (min-width: 780px) {
+  .sidebar {
 display: none;
   }
+  .side{
+      display:none
+  }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 780px) {
 .Header > a{
     display: none;
 }

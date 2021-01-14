@@ -6,7 +6,8 @@ class Header extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            sidebarOpen: true
+            sidebarOpen: false,
+            matches: window.matchMedia("(max-width: 768px)").matches
         };
         this.onSetSidebarOpen = this.onSetSidebarOpen.bind(this);
     }
@@ -26,6 +27,24 @@ class Header extends React.Component {
     render() {
         return (
             <div className="Header">
+                {this.state.matches ?
+                    <div className="sidebar">
+
+                        <Sidebar
+                            className="side"
+                            sidebar={<b>{this.SidebarContainer}</b>}
+                            open={this.state.sidebarOpen}
+                            onSetOpen={this.onSetSidebarOpen}
+                            styles={{ sidebar: { width: "40%", background: '#FF1493' } }}
+                        >
+                            <div onClick={() => this.onSetSidebarOpen(true)} style={{ width: '100%', margin: "10px", display: 'flex', justifyContent: 'right', alignContent: 'center', alignItems: 'center' }}>
+                                <img className="side" src={SidebarImage} height="50" width="50" />
+                            </div>
+                        </Sidebar>
+
+
+                    </div> : null}
+
                 <div class="ui secondary  menu Header">
                     <a class=" item" >
                         HOME
@@ -44,21 +63,6 @@ class Header extends React.Component {
                     <a class="item" href="#contact">
                         <button className="header-button">Book An Apointment</button>
                     </a>
-
-                </div>
-                <div className="sidebar">
-
-                    <Sidebar
-                        sidebar={<b>{this.SidebarContainer}</b>}
-                        open={this.state.sidebarOpen}
-                        onSetOpen={this.onSetSidebarOpen}
-                        styles={{ sidebar: { width: "40%", background: '#FF1493' } }}
-                    >
-                        <div onClick={() => this.onSetSidebarOpen(true)} style={{ width: '100%', margin: "10px", display: 'flex', justifyContent: 'right', alignContent: 'center', alignItems: 'center' }}>
-                            <img src={SidebarImage} height="50" width="50" />
-                        </div>
-                    </Sidebar>
-
 
                 </div>
 
