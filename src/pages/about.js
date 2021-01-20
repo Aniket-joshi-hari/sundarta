@@ -1,10 +1,14 @@
 import React from "react";
 import "../css/about.css"
 import Grid from '@material-ui/core/Grid';
+import Helmet from "react-helmet";
 function About() {
     return (
         <div>
             <div className="about" id="about">
+                <Helmet>
+                    <meta name="description" content="parlour about section" />
+                </Helmet>
                 <Grid item xs="12">
                     <div className="about-heading">
                         <div className="centered-text" id="about">Our Mission
